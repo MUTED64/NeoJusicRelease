@@ -15,7 +15,7 @@ importScripts("js/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "js/workbox-v4.3.1"});
 
 importScripts(
-  "js/precache-manifest.0ee244aa5e494864afd85be87a6cae86.js"
+  "js/precache-manifest.eb996ff046817296aa3d50c869b7a1b4.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "jusic-ui"});

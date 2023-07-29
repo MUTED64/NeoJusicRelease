@@ -11,11 +11,11 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("js/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "js/workbox-v4.3.1"});
+importScripts("/NeoJusicRelease/js/workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/NeoJusicRelease/js/workbox-v4.3.1"});
 
 importScripts(
-  "js/precache-manifest.d5ecd225ce7766756aae233e016e901b.js"
+  "/NeoJusicRelease/js/precache-manifest.3d7dc47aa070f7a9542ad06fcfce89d8.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "jusic-ui"});

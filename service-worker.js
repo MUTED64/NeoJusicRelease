@@ -15,7 +15,7 @@ importScripts("/NeoJusicRelease/js/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/NeoJusicRelease/js/workbox-v4.3.1"});
 
 importScripts(
-  "/NeoJusicRelease/js/precache-manifest.ab53f25495f0acb5d058f9de54e6cc74.js"
+  "/NeoJusicRelease/js/precache-manifest.73cde068fe6222edd0c2aa809d65fdea.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "jusic-ui"});
